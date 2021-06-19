@@ -1,0 +1,43 @@
+#container {
+  position: relative;
+  margin: auto;
+  width: 50vw;
+  height: 50vw;
+  background: url(vanillaClock.jpg) no-repeat;
+  background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 3%;
+  height: 19%;
+  top: 31.5%;
+  left: 48.59%;
+  opacity: 0.89;
+  background-color: rgb(243, 7, 7);
+  transform-origin: bottom;
+}
+#minute {
+  width: 2%;
+  height: 25%;
+  top: 25%;
+  left: 48.99%;
+  opacity: 0.89;
+  background-color: rgb(10, 248, 2);
+  transform-origin: bottom;
+}
+#second {
+  width: 1%;
+  height: 36%;
+  top: 14.5%;
+  left: 49.5%;
+  opacity: 0.89;
+  background-color: rgb(89, 0, 255);
+  transform-origin: bottom;
+}
